@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.set{
+    display:flex;
+    list-style: none;
+    margin: 14px;
+
+    
+
+}
+.parent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    margin-bottom: 20px;
+    z-index: 11;
+}
+.top{
+   
+    margin-left: 20px;
+    
+    
+    
+
+}.seperator{
+    flex-grow: .75;
+}
+.set2{
+    display: flex;
+    list-style: none;
+    margin-top: 14px;
+    
+}
+.second{
+
+margin-left: 20px;
+}
+.icon {
+    margin-top: 14px;
+
+}
+.icon i{
+    padding-left: 30px;
+
+}
+.items{
+    margin-left: -10px;
+
+}
+.home-page{
+    width: 100%; 
+    height: 460px;
+    margin-top: 51px;
+
+}
+
+
+.cover{
+    width: 100%;
+    background-image: url(cover1.webp);
+    background-size: 1347px;
+    height: 487px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-top: 52px;
+    
+    
+}
+
+.price{
+    padding-top: 93px;
+    padding-left: 274px;
+}
+.details{
+    padding-top: 4px;
+    padding-left: 274px;
+    font-size: 27px;
+}
+.button{
+  background-color: black;
+  color: white;  
+  border-radius: 12px;
+    width: 235px;
+    height: 40px;
+    margin-left: 279px;
+    margin-top:27px;
+font-size: 15px;
+
+  
+}
+.button:hover{
+   background-color:  grey;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+.image2{
+background-image: url(image2.webp);
+    background-size: 652px;
+    width: 53%;
+    height: 494px;
+    background-repeat: no-repeat;
+    margin-top: -52px;
+    margin-left: 16px;
+    
+}
+.best{
+    margin-top: 101px;
+    margin-left: 170px;
+}
+.speed{
+    margin-top: 8px;
+    margin-left: 247px;
+}
+.link{
+    position: relative;
+    top: 10px;
+    left: 280px;
+    color: rgb(222, 77, 5);
+}
+.image3{
+    background-image: url(image3.webp);
+    background-size: 652px;
+    width: 50%;     
+    height: 486px;
+    background-repeat: no-repeat;
+    margin-top: -52px;
+    margin-left: -41px;
+    margin-bottom: 60px;
+   
+}
+.xiomi{
+    font-weight: bold !important;
+    font-family: Camphor Pro vf;
+     color: white;
+     margin-top: 90px;
+     margin-left: 151px;
+}
+.dolby{
+    color: white;
+    margin-top: 8px;
+    margin-left: 188px;
+    font-size: 15px;
+}
+.buynow{
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 229px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.learnmore{
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 244px;
+    size: 15px;
+    text-decoration: none;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image4{
+    
+    background-image: url(image4.webp);
+    background-size: cover;
+    width: 48%;
+    height: 454px;
+    margin-top: -48px;
+    margin-left: 19px;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.image5{
+   
+    background-image: url(image5.webp);
+    background-size: cover;
+    width: 290px;
+    height: 453px;
+    background-repeat: no-repeat;
+    margin-top: -47px;
+    margin-left: 14px;
+    color: white;
+    float: left;
+}
+.image6{
+    width: 344px;
+    float: left;
+    height: 454px;
+    margin-left: 17px;
+    margin-top: -48px;
+    text-align: center;
+    
+}
+.india{
+    margin-top: 31px;
+    margin-left: 26px;
+    color: black;
+    
+}
+.segment{
+    color: black;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 11px;
+}
+.shopnow{
+    position: relative;
+    color: orangered;
+    top: 24px;
+    left: 19px;
+    text-decoration: none;
+}
+.laptops{
+    position: relative;
+     top: 31px;
+    left: 28px;
+    font-size: 30px;
+
+}
+.power{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    font-size: 15px;
+}
+.buynow2{
+    position: relative;
+    color: white;
+    top: 58px;
+    left: 100px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.powerbank{
+   
+    position: relative;
+    width: 232px;
+    top: 139px;
+    right: 48px;
+
+}
+.charge{
+position: relative;
+    top: 35px;
+
+}
+.cables{
+    position: relative;
+    top:43px ;
+}
+.more{
+    position: relative;
+    color: orangered;
+    bottom: 162px;
+    left: 110px;
+    text-decoration: none;
+}
+.section3{
+padding: 20px;
+display: flex;
+flex-direction: row;
+background-color:white;
+margin: 45px;
+
+
+}
+.gliding img{
+    width: 599px;
+    padding: 19px;
+    margin-left: 20px;
+    
+}
+.gliding{
+    background-color: white;
+}
+.what button{
+     margin: 4px;
+     padding: 6px;
+     background-color: black;
+     color: white;
+     border-radius: 7px;
+}
+.what{
+    background-color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+.section4{
+    width: 53%;
+    height: 795px;
+    margin-left: 48px;
+    margin-bottom: 35px;
+    display: grid;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 14px;
+    row-gap: 14px;
+    padding:46px;
+    padding-top: 0;
+    background-color: white;
+
+}
+.xiomicare{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 1rem;
+
+}
+.care{
+    text-align: center;
+    margin-bottom: 4rem;
+   
+
+}
+.templates,
+.emblem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.emblem{
+    gap: 2.5rem;
+    
+}
+.templates{
+    flex-direction: column;
+    
+}
+
+.service h1{
+    text-align: center;
+
+
+}
+.service,
+.renewed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 1rem;
+    align-items: center;
+}
+.renewed h1{
+margin-bottom: 36px;
+}
+.support{
+    margin: 10px;
+}
+.insta{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+.insta i{
+width: 40px;
+font-size: 30px;
+margin-top: 20px;
+}
+.qra{
+    display: flex;
+    margin-top: 3rem;
+    border-radius: 18px;
+    height: 12rem;
+    width: 22rem;
+
+}
+
+
+.qr{
+   
+    width: 70px;
+    margin: 25px;
+    border-radius: 7px;
+    overflow: hidden;
+    height: 71px;
+}
+.img{
+width: 70px;
+
+
+}
+.get h4{
+    margin-top: 10px;
+    margin-left: 0rem;
+}
+.get p{
+    margin-top: 10px;
+    margin-left: 0rem;
+}
+.get{
+width: -15px;
+margin-left: -19px;
+}
+.down p{
+    position: relative;
+color: white;
+top: 26px;
+
+}
+.down img{
+    width: 48px;
+    margin-left: -4rem;
+}
+.copyright{
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.ind{
+    margin-top: -4rem;
+    color: white;
+   margin-left: 77rem;
+}
+.globe{
+    position: relative;
+
+    width: 40px;
+    left: 81rem;
+    top: -2rem;
+    padding: 10px;
+    
+}
+.top:hover{
+    position: relative;
+    border-bottom: 2px orangered solid;
+
+}
